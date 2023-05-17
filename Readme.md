@@ -26,12 +26,22 @@ Repository zum lernen von Java.
 1) In Git Bash neuen Branch erstellen
    2) ``git checkout -b meinErsterBranch``
 3) Unter JavaTutorial/Taschenrechner/src/main/java/taschenrechner/gui/TaschenrechnerGUI die Anweisungen bei ``ToDo`` befolgen
-4) Änderungen testen indem der Taschenrechner gestartet wird
+4) Änderungen testen in dem der Taschenrechner gestartet wird
 5) Änderungen in Git Bash commiten und pushen
    6) ``git status`` zeigt dir an welche Dateien alle geändert worden sind
    7) ``git diff`` zeigt dir an welche Änderungen vorgenommen wurden
    8) ``git commit -a -m "Meine ersten Änderungen``
    9) ``git push --set-upstream origin meinErsterBranch``
+   10) Im Repository auf GitHub ein ``Pull Request`` (PR) erstellen
+
+### Testaufgaben vervollständigen
+1) Für jede Testaufgabe einen neuen Branch erstellen
+   2) z.B. ein Branch für die Tests von Zahlenoperatoren, ein Branch für die Tests von Textoperatoren
+3) Die entsprechenden ``ToDo's`` bearbeiten
+4) Testen
+5) Commiten
+6) Pushen
+7) PR erstellen
 
 # Git Befehle:
 
@@ -64,4 +74,103 @@ Repository zum lernen von Java.
 > Mit "git status" überprüfen ob Änderungen vorhanden sind bevor "git pull" aufgerufen wird.
 
 
-## ToDo: Einfache Java Befehle ergänzen
+# Hilfreiches zu Java
+
+## Klassen
+Klassen können als Baupläne betrachtet werden die eine bestimmte Funktion erfüllen sollen.
+Eine Klasse wird folgendermaßen deklariert:
+```
+public class MeineKlasse {
+}
+```
+Eine Klasse enthält dabei beliebig viele globale Variablen und Methoden.
+Globale Variablen sind überall in der Klasse sichtbar und können darauf zugegriffen werden.
+```
+public class MeineKlasse {
+   private static int globaleZahl = 2;
+   private static String globalerText = "Hallo";
+   
+   public static void methode1() {
+      int lokaleZahl = 5;
+      int ergebnis = globaleZahl + lokaleZahl;
+      System.out.println(ergebnis);
+   }
+   
+   public static void methode2() {
+      String lokalerText = " du!";
+      String verknuepfung = globalerText + lokalerText;
+      System.out.println(verknuepfung);
+   }
+}
+```
+Die Methoden ``methode1`` und ``methode2`` können jeweils auf die globalen Variablen
+``globaleZahl`` und ``globalerText`` zugreifen und sogar den Wert verändern. 
+``methode1`` kann aber z.B. nicht auf die lokale Variable ``lokalerText`` in ``methode2`` zugreifen. 
+## Methoden
+Eine Methode enthält eine Reihe von Befehlen die nach und nach abgearbeitet werden.
+Jeder Befehl in Java muss mit ``;`` beendet werden. Ansonsten kommt es zu einem Compilerfehler.
+Ein Befehl kann z.B.:
+- initialisieren einer Variable
+- Veränderung einer Variable
+- Neuberechnung einer Variable
+- Aufrufen einer anderen Methode
+- Start einer Schleife
+- Start einer If-Else Bedingung
+
+sein. 
+
+Wir können einer Methode auch Parameter jeglichen Typs übergeben. Die Parameter können dann innerhalb der Methode
+verwendet werden. Schauen wir uns folgende Methode an:
+```
+public static void methode(int parameter1, String parameter2) {
+   int basisWert = 5;                           //1
+   int neuerWert = basisWert + parameter1;      //2
+   methode2();                                  //3
+   System.out.println(parameter2);              //4
+   System.out.println(neuerWert);               //5
+}
+
+public static void main(String[] args) {
+   methode(5, "Mein neuer Wert:");              //6
+}
+```
+Ergibt beim Ausführen von ``main`` folgende Ausgabe:
+>"Hallo du!"
+>
+> "Mein neuer Wert:"
+> 
+> 10
+
+Die einzelnen Befehle in den Zeilen bewirken Folgendes:
+1) Initialisiere die lokale Variable ``basisWert`` mit Value ``5``
+2) Initialisiere die lokale Variable ``neuerWert`` mit Value ``5 + parameter1``
+3) Führe ``methode2`` aus Abschnitt ``Klasse`` aus
+4) Schreibe in die Konsole den Wert von ``parameter2``
+5) Schreibe in die Konsole den Wert von ``neuerWert``
+6) Führe ``methode`` aus mit den Parameterwerten: ``parameter1 = 5``, ``parameter2 = "Mein neuer Wert"``
+
+## static vs non-static
+In den vorherigen Abschnitten kommt öfters das Wort ``static`` vor. ``static`` ist dabei
+eine Deklarierung, ob eine Methode oder globale Variable Klassenspezifisch oder Objektspezifisch ist.
+Klassenspezifische Methoden und Variablen werden mit dem Wort ``static`` beschrieben.
+
+Fürs Erste beschränken wir uns auf Klassenspezifische Methoden und Variablen. Den genauen
+Unterschied werden wir zu einem späteren Zeitpunkt betrachten.
+
+
+## Kommentare
+### Einzeilige Kommentare
+Einzeilige Kommentare beginnen mit ``//`` und kommentieren die gesamte Zeile aus. 
+IntelliJ graut die gesamte Zeile dann ein damit man einen Kommentar schnell erkennt.
+### Mehrzeilige Kommentare, Blockkommentare
+Mehrzeilige Kommentare oder Blockkommentare beginnen mit ``/*`` und enden mit `*/`. Jede Zeile dazwischen beginnt mit einem ``*``
+```
+/* Das ist ein Kommentar
+* der über mehrere Zeilen geht
+*/
+```
+### JavaDoc Notation
+Ein Blockkommentar der mit ``/**`` beginnt, wird als Java Dokumentation gesehen. 
+Damit können Klassen oder Methoden beschrieben werden bezüglich ihrer Funktion.
+So sieht man z.B. schnell die Funktionalität einer Methode ohne sich lange den Quelltext
+anschauen zu müssen.
