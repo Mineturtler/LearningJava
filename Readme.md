@@ -19,24 +19,24 @@ Repository zum lernen von Java.
 2) ``Open -> {Pfad zum Repository}/LearningJava``
 3) Unten rechts in der Ecke: "Load Maven"
 4) Taschenrechner starten
-   5) Öffne JavaTutorial/Taschenrechner/src/main/java/taschenrechner/run/TaschenrechnerRun 
-   6) Auf den grünen Pfeil neben ``public class TaschenrechnerRun`` drücken und ``Run..`` auswählen
+   - Öffne JavaTutorial/Taschenrechner/src/main/java/taschenrechner/run/TaschenrechnerRun 
+   - Auf den grünen Pfeil neben ``public class TaschenrechnerRun`` drücken und ``Run..`` auswählen
 
 ### Ersten eigenen Branch erstellen und pushen
 1) In Git Bash neuen Branch erstellen
-   2) ``git checkout -b meinErsterBranch``
+   - ``git checkout -b meinErsterBranch``
 3) Unter JavaTutorial/Taschenrechner/src/main/java/taschenrechner/gui/TaschenrechnerGUI die Anweisungen bei ``ToDo`` befolgen
 4) Änderungen testen in dem der Taschenrechner gestartet wird
 5) Änderungen in Git Bash commiten und pushen
-   6) ``git status`` zeigt dir an welche Dateien alle geändert worden sind
-   7) ``git diff`` zeigt dir an welche Änderungen vorgenommen wurden
-   8) ``git commit -a -m "Meine ersten Änderungen``
-   9) ``git push --set-upstream origin meinErsterBranch``
-   10) Im Repository auf GitHub ein ``Pull Request`` (PR) erstellen
+   - ``git status`` zeigt dir an welche Dateien alle geändert worden sind
+   - ``git diff`` zeigt dir an welche Änderungen vorgenommen wurden
+   - ``git commit -a -m "Meine ersten Änderungen``
+   - ``git push --set-upstream origin meinErsterBranch``
+  - Im Repository auf GitHub ein ``Pull Request`` (PR) erstellen
 
 ### Testaufgaben vervollständigen
 1) Für jede Testaufgabe einen neuen Branch erstellen
-   2) z.B. ein Branch für die Tests von Zahlenoperatoren, ein Branch für die Tests von Textoperatoren
+   - z.B. ein Branch für die Tests von Zahlenoperatoren, ein Branch für die Tests von Textoperatoren
 3) Die entsprechenden ``ToDo's`` bearbeiten
 4) Testen
 5) Commiten
