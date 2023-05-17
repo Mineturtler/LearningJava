@@ -16,7 +16,7 @@ Repository zum lernen von Java.
 
 ### Repository in IntelliJ öffnen
 1) IntelliJ öffnen
-2) ``Open -> {Pfad zum Repository}/LearningJava
+2) ``Open -> {Pfad zum Repository}/LearningJava``
 3) Unten rechts in der Ecke: "Load Maven"
 4) Taschenrechner starten
    5) Öffne JavaTutorial/Taschenrechner/src/main/java/taschenrechner/run/TaschenrechnerRun 
