@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Taschenrechner.iml" filepath="$PROJECT_DIR$/Taschenrechner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningJava.iml" filepath="$PROJECT_DIR$/LearningJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taschenrechner/Taschenrechner.iml" filepath="$PROJECT_DIR$/Taschenrechner/Taschenrechner.iml" />
       <module fileurl="file://$PROJECT_DIR$/Testaufgaben/Testaufgaben.iml" filepath="$PROJECT_DIR$/Testaufgaben/Testaufgaben.iml" />
     </modules>
   </component>

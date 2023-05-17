@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4972b4e9-2bb6-4f7f-b185-a6c93b858e48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/src/taschenrechner/gui/TaschenrechnerGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taschenrechner/src/taschenrechner/starter/TaschenrechnerRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testaufgaben/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testaufgaben/Testaufgaben.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testaufgaben/src/Rechenoperatoren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testaufgaben/src/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taschenrechner/gui/TaschenrechnerGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taschenrechner/starter/TaschenrechnerRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +43,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/axel.borchert/repos/LearningJava/Taschenrechner",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/axel.borchert/repos/LearningJava",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.TestMain.testAddition">
@@ -88,19 +70,6 @@
       <option name="MAIN_CLASS_NAME" value="TestMain" />
       <option name="METHOD_NAME" value="testAddition" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Taschenrechner" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Taschenrechner" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

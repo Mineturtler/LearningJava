@@ -2,7 +2,7 @@
 Repository zum lernen von Java.
 
 # Setup:
- 
+
 - IntelliJ Community Edition
 - Git Bash
 - GitHub Account
@@ -28,7 +28,7 @@ Repository zum lernen von Java.
 >>Wird nur ein Teilpfad verwendet, werden alle Dateien in den Unterordner zum publishen markiert
 ### Änderungen committen
 >git commit -m "Commit-Nachricht. Z.b. Neue Klasse Abc hinzugefügt"
->> Nur Dateien die zum publishen markiert sind, werden in einem Commit gepackt. 
+>> Nur Dateien die zum publishen markiert sind, werden in einem Commit gepackt.
 ### Änderungen ins Repository hochladen
 >git push --set-upstream origin "Branchname"
 ### Aktuellen Zustand aus dem Repository laden
