@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 public class TaschenrechnerGUI {
 
     private final JFrame frame = new JFrame("Taschenrechner");
+
     public TaschenrechnerGUI() {
         init();
     }

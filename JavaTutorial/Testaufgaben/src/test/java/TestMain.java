@@ -1,7 +1,8 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import testaufgaben.operatoren.Rechenoperatoren;
 
-public class TestMain {
+public final class TestMain {
     @Test
     void testeRechenoperatoren() {
         testAddition();

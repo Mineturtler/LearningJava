@@ -1,3 +1,5 @@
+package testaufgaben.operatoren;
+
 public final class Rechenoperatoren {
     private Rechenoperatoren() {
         //do nothing
