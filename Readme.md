@@ -6,6 +6,32 @@ Repository zum lernen von Java.
 - IntelliJ Community Edition
 - Git Bash
 - GitHub Account
+## Erste Schritte
+### Repository laden
+1) Git Bash installieren und anschließend öffnen
+2) In das bevorzugte Verzeichnis wechseln in das das Repository geladen werden soll
+3) ```git clone https://github.com/Mineturtler/LearningJava.git```
+4) ```cd Learning Java```
+5) ``git status``
+
+### Repository in IntelliJ öffnen
+1) IntelliJ öffnen
+2) ``Open -> {Pfad zum Repository}/LearningJava
+3) Unten rechts in der Ecke: "Load Maven"
+4) Taschenrechner starten
+   5) Öffne JavaTutorial/Taschenrechner/src/main/java/taschenrechner/run/TaschenrechnerRun 
+   6) Auf den grünen Pfeil neben ``public class TaschenrechnerRun`` drücken und ``Run..`` auswählen
+
+### Ersten eigenen Branch erstellen und pushen
+1) In Git Bash neuen Branch erstellen
+   2) ``git checkout -b meinErsterBranch``
+3) Unter JavaTutorial/Taschenrechner/src/main/java/taschenrechner/gui/TaschenrechnerGUI die Anweisungen bei ``ToDo`` befolgen
+4) Änderungen testen indem der Taschenrechner gestartet wird
+5) Änderungen in Git Bash commiten und pushen
+   6) ``git status`` zeigt dir an welche Dateien alle geändert worden sind
+   7) ``git diff`` zeigt dir an welche Änderungen vorgenommen wurden
+   8) ``git commit -a -m "Meine ersten Änderungen``
+   9) ``git push --set-upstream origin meinErsterBranch``
 
 # Git Befehle:
 

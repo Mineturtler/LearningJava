@@ -14,7 +14,10 @@ public class TaschenrechnerGUI {
     private void init() {
         JPanel panel = new JPanel();
         JButton exampleButton = new JButton();
+
+        // ToDo: Text auf dem Button ändern
         exampleButton.setText("Klick mich");
+
         exampleButton.addActionListener(this::buttonClicked);
         panel.add(exampleButton);
         frame.add(panel);
@@ -25,6 +28,7 @@ public class TaschenrechnerGUI {
     }
 
     private void buttonClicked(ActionEvent actionEvent) {
+        // ToDo: Text im Dialog ändern zu einer eigenen Nachricht
         JOptionPane.showMessageDialog(frame, "Sehr gut gemacht");
     }
 }
