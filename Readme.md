@@ -30,7 +30,7 @@ Repository zum lernen von Java.
 5) Änderungen in Git Bash commiten und pushen
    - ``git status`` zeigt dir an welche Dateien alle geändert worden sind
    - ``git diff`` zeigt dir an welche Änderungen vorgenommen wurden
-   - ``git commit -a -m "Meine ersten Änderungen``
+   - ``git commit -a -m "Meine ersten Änderungen"``
    - ``git push --set-upstream origin meinErsterBranch``
   - Im Repository auf GitHub ein ``Pull Request`` (PR) erstellen
 
