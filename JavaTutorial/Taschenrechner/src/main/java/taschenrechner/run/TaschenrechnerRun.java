@@ -1,4 +1,4 @@
-package taschenrechner.starter;
+package taschenrechner.run;
 
 import taschenrechner.gui.TaschenrechnerGUI;
 
